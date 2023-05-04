@@ -1,0 +1,101 @@
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Work+Sans:wght@700&display=swap'); */
+
+
+
+
+body{
+  margin: 0;
+}
+
+.Nav{
+position: absolute;
+right: 50px;
+top: 35px;
+}
+
+.Nav .nav-item .nav-link {
+  color: white;
+}
+
+.hero-bg{
+  background: url(../Assets/Landing.png);
+  background-size: cover;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.651);
+  max-width: 100%;
+}
+
+.hero-text{
+  max-width: fit-content;
+  margin: auto;
+  margin-top: 120px;
+  
+}
+
+.hero-text span{
+    font-size: 1.25rem;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+.hero-text h3{
+  font-size: 6.25rem;
+  color: #3c4e91;
+  font-family: 'Playfair Display', serif;
+  /* margin-bottom: 30px; */
+
+}
+
+.hero-btn{
+  display: block;
+  margin: auto;
+  padding: 5px 30px;
+  text-decoration: none;
+}
+
+.hero-text .strip{
+    display: inline-block; 
+    width: 290px;
+    height: 10px; 
+    background-color: rgb(38, 0, 255); 
+    position: absolute;
+    margin-left: 20px;
+    margin-top:10px
+  }
+
+  .link-text{
+    text-decoration: none;
+  }
+
+  /*Media Query*/
+  @media (max-width: 576px) {
+    .hero-text h3 {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .hero-text h3 {
+      font-size: 3rem;
+    }
+  }
+
+  @media (max-width: 360px) {
+    .hero-text .strip {
+      width: 100px;
+      margin-left: 10px;
+    }
+  }
+
+  @media (max-width: 360px) {
+    .hero-text span {
+      font-size: 1rem;
+    }
+  }
+
+
+
+

@@ -1,0 +1,49 @@
+.carousel-item {
+    padding: 10px 10px 10px 10px;
+}
+.carousel-indicators {
+    bottom:-50px;
+}
+.carousel-inner {
+    margin-bottom:50px;
+}
+.carousel-indicators [data-bs-target]{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #ff3300;
+}
+.btn-purchase {
+    color: #ffffff;
+    background-color: #ff3300;
+    border-color: #ff3300;
+    float: right;
+}
+.btn-viewing {
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #ff3300;
+    margin-right: 10px;
+}
+.btn-contact {
+    color: #ffffff;
+    background-color: #ff3300;
+    border-color: #ff3300;
+}
+.btn-primary:hover {
+    color: #ffffff;
+    background-color: #ff3300;
+    border-color: #ff3300;
+}
+.boatPrice {
+    color: #ff3300;
+    margin-bottom:10px;
+}
+.boatDesc {
+    color: #ff3300;
+}
+.boatName {
+    margin-bottom:20px;
+}
+
+  

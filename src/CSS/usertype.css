@@ -1,0 +1,92 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Work+Sans:wght@700&display=swap'); */
+
+.bg {
+  background: url(../Assets/Landing.png);
+  background-size: cover;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.651);
+}
+
+.usertype-text {
+  max-width: max-content;
+  margin: auto;
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.card-div {
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-around;
+}
+
+.card-div .card-text {
+  font-family: 'Playfair Display', serif;
+}
+
+.card-div .card-title {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 30px;
+}
+
+.p-alert {
+  display: flex;
+  color: white;
+  margin: 0 auto;
+  max-width: fit-content;
+  margin-top: 300px;
+  text-align: center;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.653);
+}
+
+.link-text {
+  text-decoration: none;
+}
+
+/*Media Query*/
+
+@media (max-width: 360px) {
+  .usertype-text {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 360px) {
+  .card-div {
+    margin-top: 1rem;
+    padding: 10px;
+  }
+
+  .card-div .card-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+
+  .card-div > div {
+    margin-bottom: 10px;
+  }
+
+  .card-text {
+    font-size: 1rem;
+  }
+
+  .p-alert {
+    margin-top: 0;
+    text-align: left;
+    font-size: 10px;
+  }
+
+  .navbar-brand {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar-brand img {
+    max-width: 80px;
+    margin-top: 20px;
+  }
+}

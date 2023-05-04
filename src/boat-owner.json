@@ -1,0 +1,41 @@
+{
+    "owner": {
+      "company":"Nice boat company",
+      "services":"Repair and cleaning",
+      "boats":[
+        {
+          "id": 1,
+          "name": "Speed Master 2000",
+          "location": "London",
+          "description" : "Damn what a nice boat!",
+          "price" : "$200,000"
+        },
+        {
+          "id": 2,
+          "name": "Speed Master 1000",
+          "description" : "Speemaster 1000 is the original fast boat!",
+          "location": "Plymouth",
+          "price" : "$100,000"
+      
+        },
+        {
+          "id": 3,
+          "name": "Speed Master 3000",
+          "description" : "Wow this boat is soo cool",
+          "location": "Exeter",
+          "price" : "$100,500"
+          
+        },
+        {
+          "id": 4,
+          "name": "Speed Master 1000",
+          "description" : "Wow this boat is soo cool",
+          "location": "Bristol",
+          "price" : "$100,000"
+        }
+        
+      
+      ]
+      
+    }
+  }

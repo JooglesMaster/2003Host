@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "name": "Speed Master 2000",
+    "image" : "https://images.unsplash.com/photo-1544189360-0c4ef5ccd5f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+    "description" : "Wow this boat is soo cool",
+    "facts" : "This is hidden from the boat view"
+  },
+  {
+    "id": 2,
+    "name": "Speed Master 1000",
+    "image" : "https://images.pexels.com/photos/6585322/pexels-photo-6585322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description" : "Speemaster 1000 is the original fast boat!",
+    "facts" : "This is hidden from the boat view"
+  },
+  {
+    "id": 3,
+    "name": "Speed Master 3000",
+    "image" : "https://images.pexels.com/photos/6585322/pexels-photo-6585322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description" : "Wow this boat is soo cool",
+    "facts" : "This is hidden from the boat view"
+  },
+  {
+    "id": 4,
+    "name": "Speed Master 1000",
+    "image" : "https://images.pexels.com/photos/6585322/pexels-photo-6585322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description" : "Wow this boat is soo cool",
+    "facts" : "This is hidden from the boat view"
+  },
+  {
+    "id": 5,
+    "name": "Speed Master 1000",
+    "image" : "https://images.pexels.com/photos/6585322/pexels-photo-6585322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description" : "Wow this boat is soo cool",
+    "facts" : "This is hidden from the boat view"
+  },
+  {
+    "id": 6,
+    "name": "Speed Master 4000",
+    "image" : "https://images.pexels.com/photos/6585322/pexels-photo-6585322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description" : "Wow this boat is soo cool",
+    "facts" : "This is hidden from the boat view"
+  },
+  {
+    "id": 7,
+    "name": "Speed Master 4000",
+    "image" : "https://images.pexels.com/photos/6585322/pexels-photo-6585322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description" : "Wow this boat is soo cool",
+    "facts" : "This is hidden from the boat view"
+  }
+  
+
+]

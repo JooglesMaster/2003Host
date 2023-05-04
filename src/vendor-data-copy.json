@@ -1,0 +1,49 @@
+{
+  "user": {
+    "choice":[
+      {
+        "id": 1,
+        "name": "Maintenance and Repair",
+        "selected": false
+      },
+      {
+        "id": 2,
+        "name": "Storage and Marina",
+        "selected": false
+      },
+      {
+        "id": 3,
+        "name": "Safety and Training",
+        "selected": false    
+      },
+      {
+        "id": 4,
+        "name": "Cleaning and Detailing",
+        "selected": false
+      },
+      {
+        "id": 5,
+        "name": "Equipment and Accessory sales and install",
+        "selected": false
+      },
+      {
+        "id": 6,
+        "name": "Transport and Delivery",
+        "selected": false
+      }],
+    
+    "company":[
+      {
+        "id": 7,
+        "name": "I work alone",
+        "selected": false
+      },
+
+      {
+        "id": 8,
+        "name": "I represent a company",
+        "selected": false
+      }
+    ]
+  }
+}

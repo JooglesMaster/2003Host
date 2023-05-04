@@ -1,0 +1,290 @@
+.hero-text {
+    max-width: fit-content;
+    margin: auto;
+    margin-top: 120px;
+
+}
+
+.hero-text span {
+    font-size: 20px;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.hero-text h3 {
+    font-size: 100px;
+    color: #3c4e91;
+    font-family: 'Playfair Display', serif;
+    /* margin-bottom: 30px; */
+
+}
+
+.hero-text .strip {
+    display: inline-block;
+    width: 290px;
+    height: 10px;
+    background-color: rgb(38, 0, 255);
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px
+}
+
+.left-div {
+    background: url(../Assets/image\ 1.png);
+    background-size: cover;
+    height: 100vh;
+    width: 55%;
+    background-color: rgba(0, 0, 0, 0.651);
+    float: left;
+}
+
+.right-div {
+    width: 45%;
+    float: right;
+    height: 100vh;
+    padding: 2.5rem 3rem 3rem 2rem;
+}
+
+Form {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.form-control {
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+}
+
+.form-label {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+
+.login-form-header {
+    margin-bottom: 40px;
+    margin-left: 4rem;
+}
+
+.login-form-header h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.login-form-header p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+
+.link-text {
+    color: red;
+    text-decoration: none;
+}
+
+.login-btn {
+    display: block;
+    margin: auto;
+    padding: 5px 200px;
+    margin-top: 2.5rem;
+    border-radius: 0;
+    background-color: #3c4e91;
+}
+
+.gsign-in{
+    display: block;
+    width: 450px;
+    height: 55px;
+    margin: 0 auto;
+    font-size: 25px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+    color: gray;
+}
+
+.options{
+    margin-top: 30px;
+}
+
+.signIn-options{
+    text-align: center;
+    font-size: smaller;
+}
+
+.or-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.or-row  .or-line  {
+  display: inline-block;
+  /* vertical-align: middle; */
+  margin: 50px 10px 0 0px;
+  height: 2px;
+  background-color: #000;
+}
+
+.or-row .or-text{
+    display: inline-block;
+    /* vertical-align: middle; */
+    margin: 10px 10px 0 0px;
+    height: 2px;
+    background-color: white;
+}
+
+.or-row{
+    background-color: transparent !important;
+}
+
+
+
+.or-row .or-line:first-child {
+  width: 40%;
+}
+
+.or-row .or-line:last-child {
+  width: 40%;
+}
+
+
+
+/* Sign In*/
+
+.or-sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.or-sign  .or-line  {
+  display: inline-block;
+  /* vertical-align: middle; */
+  margin: 50px 10px 0 0px;
+  height: 2px;
+  background-color: #000;
+}
+
+.or-sign .or-text{
+    display: inline-block;
+    /* vertical-align: middle; */
+    margin: 10px 10px 0 0px;
+    height: 2px;
+    background-color: white;
+}
+
+.or-sign{
+    background-color: transparent !important;
+}
+
+
+
+.or-sign .or-line:first-child {
+  width: 40%;
+}
+
+.or-sign .or-line:last-child {
+  width: 40%;
+}
+
+
+
+.socialdiv{
+    display: block;
+    margin: 0 auto;
+    max-width:fit-content;
+    margin-top: 40px;
+}
+
+.socialdiv-sign-in{
+    display: block;
+    margin: 0 auto;
+    max-width:fit-content;
+    margin-top: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-icons > * {
+    margin: 10px 8px;
+  }
+
+/*Media Query*/
+
+@media (max-width: 360px) {
+    .left-div {
+      display: none;
+    }
+
+    .right-div {
+        float: none; /* Remove the float property */
+        padding: 30px 10px 10px 10px;
+        width: 100%;
+    }
+
+    Form {
+       padding: 0;
+    }
+
+    .login-form-header {
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .login-form-header h3 {
+        font-size: 1.6rem;
+        font-weight: bolder;
+    }
+
+    .login-form-header p {
+       justify-content: center;
+    }
+
+    .login-btn {
+        padding: 5px 100px;
+        margin-top: 1.5rem;
+    }
+
+    .gsign-in{
+        width: 250px;
+        height: 55px;
+        font-size: 15px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: bolder;
+        color: gray;
+    }
+
+    .login-form-header p br {
+        display: none;
+      }
+
+      .login-form-header p {
+        font-size: smaller;
+      }
+
+      .or-row .or-line:first-child {
+        width: 50%;
+      }
+      
+      .or-row .or-line:last-child {
+        width: 50%;
+      }
+
+      .or-sign  .or-line{
+        margin: 20px 10px 0 0px;
+      }
+
+      .socialdiv-signin{
+        margin-top: 20px;
+    }
+  }
+
+
+  
